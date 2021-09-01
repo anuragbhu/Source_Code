@@ -14,7 +14,7 @@ public class NegativeElementsToOneSide {
 //		Order of elements is not important here.
 //		rearrange(arr, n); // TC = O(nlogn), SC = O(1) for array having n elements --- Brute Force Approach
 //		rearrangeOptimal(arr, n); //  TC = O(n), SC = O(1) ---  in-place rearranging algorithm --- Two Pointer Approach/Algorithm
-		rearrangeSimple(arr, n); //  TC = O(n), SC = O(1) ---  in-place rearranging algorithm --- Two Pointer Approach/Algorithm
+		rearrangeSimple(arr, n);
 		
 		printArray(arr, n);
 		sc.close();
