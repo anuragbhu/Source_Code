@@ -1,3 +1,4 @@
+// Will solve this problem in future in most efficient way.
 package if_else;
 
 import java.util.Scanner;
