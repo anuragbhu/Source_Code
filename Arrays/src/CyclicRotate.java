@@ -20,12 +20,6 @@ public class CyclicRotate {
 		
 		int count = n, index;
 		
-		while(count >= 1) {
-			
-			index += k;
-			
-			count--;
-		}
 	}
 	
 	public static void printArray(int[] arr, int n) {

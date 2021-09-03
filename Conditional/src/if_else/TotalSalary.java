@@ -31,6 +31,8 @@ public class TotalSalary {
 		
 		System.out.println(salary);
 		
+//		Math.sqrt
+		
 		
 		sc.close();
 		
