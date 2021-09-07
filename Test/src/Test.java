@@ -29,7 +29,19 @@ public class Test {
 		
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		pattern(n);
+//		pattern(n);
+
+		int prod = 1;
+		
+		for(int i = 2; i<= n; i++) {
+			prod *= i;
+		}
+		
+		System.out.println(prod);
+		
+		sc.close();
+	
+		
 	}
 	
 	
