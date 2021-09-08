@@ -10,15 +10,14 @@ public class SquareRoot {
 		
 		int n = sc.nextInt();
 		
-		int sqrt = 0, pow = 2;
+		int sqrt = 0;
 		
 
-		while(pow <= n) {
-			pow *= 2;
+		while(sqrt*sqrt <= n) {
 			sqrt++;
 		}
 		
-		System.out.println(sqrt);
+		System.out.println(sqrt-1);
 		
 		sc.close();
 		
