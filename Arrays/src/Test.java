@@ -30,12 +30,15 @@ public class Test {
 		
 //		int n = str.length;
 		
-		for(int i = 0; i < 4; i++) {
-			String[] str = new String[2];
-			System.out.println(str[0]);
-		}
+//		for(int i = 0; i < 4; i++) {
+//			String[] str = new String[2];
+//			System.out.println(str[0]);
+//		}
 		
 //		int[] arr = takeArrayInput();
 //		printArray(arr);
+		
+		int[][] arr = new int[2][2];
+		System.out.println(arr);
 	}
 }
