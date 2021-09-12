@@ -12,7 +12,7 @@ public class FindUnique {
 		}
 		
 		System.out.println(unique(arr, n)); // TC = O(n), SC = O(1) for array having n elements --- Optimal Approach
-		System.out.println(uniqueUsingSort(arr, n)); // TC = O(nlogn), SC = O(1) for array having n elements --- Best Approach
+		System.out.println(uniqueUsingSort(arr, n)); // TC = O(nlogn), SC = O(1) for array having n elements --- Better Approach
 		System.out.println(uniqueUsingTwoLoop(arr, n)); // TC = O(n^2), SC = O(1) for array having n elements --- Brute Force Approach
 		sc.close();
 	}
