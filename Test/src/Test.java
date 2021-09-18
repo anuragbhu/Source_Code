@@ -28,16 +28,40 @@ public class Test {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-//		pattern(n);
-
-		int prod = 1;
 		
-		for(int i = 2; i<= n; i++) {
-			prod *= i;
+		int n = sc.nextInt();
+		int check = Integer.MAX_VALUE;
+		boolean  flag = true;
+		
+		for(int i = 1; i <= n; i++) {
+			int temp =  sc.nextInt();
+			if(temp < check) {
+				if(!flag) {
+					System.out.println(false);
+					return;
+				}
+			} else if(temp > check) {
+				flag = false;
+			} else {
+				System.out.println(false);
+				return;
+			}
+			check = temp;
 		}
 		
-		System.out.println(prod);
+		System.out.println(true);
+		
+		
+		
+//		pattern(n);
+
+//		int prod = 1;
+//		
+//		for(int i = 2; i<= n; i++) {
+//			prod *= i;
+//		}
+//		
+//		System.out.println(prod);
 		
 		sc.close();
 	

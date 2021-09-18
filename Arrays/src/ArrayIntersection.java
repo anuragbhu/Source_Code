@@ -16,7 +16,7 @@ public class ArrayIntersection {
 			num[i] = sc.nextInt();
 		}
 		
-//		intersection(arr, num); // O(n^2) --- Sorting
+//		intersection(arr, num); // (O(n+m) + O(nlogn) + O(mlogm)) --- Sorting
 		intersectionUsingLoops(arr, num); // O(n^2) --- Loops
 	}
 	
